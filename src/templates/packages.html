@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section set-bg" data-setbg="{% static 'img/abot-bread.jpeg' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb-text">
+<!--                        <h2>Packages</h2>-->
+                        <div class="bt-option">
+<!--                            <a href="{% url 'home'  %}">Home</a>-->
+<!--                            <span>{% trans 'Packages' %}</span>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    {% for group in groups %}
+        {% if group.package_set.count > 0%}
+        <!-- Pricing Section Begin -->
+        <section  class="pricing-section service-pricing spad">
+            <div id="first-plan" class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title specify-style">
+<!--                            {% get_current_language as LANGUAGE_CODE %}-->
+<!--                            {% if  LANGUAGE_CODE == 'ar'%}-->
+<!--                            <span>{{ group.name_ar }}</span>-->
+<!--                            {% else %}-->
+<!--                            <span>{{ group.name }}</span>-->
+<!--                            {% endif %}-->
+                            <h2 class="specify-style">{% trans 'Choose your plan' %}</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    {% for package in group.package_set.all %}
+                    <div class="col-lg-4 col-md-8">
+                        <div class="ps-item">
+                            {% if  LANGUAGE_CODE == 'ar'%}
+                            <h3>{{ package.name_ar }}</h3>
+                            <h3>{{ package.duration_ar }}</h3>
+                            {% else %}
+                            <h3>{{ package.name }}</h3>
+                            <h3>{{ package.duration }}</h3>
+                            {% endif %}
+                            <div class="pi-price">
+                                {% if  LANGUAGE_CODE == 'ar'%}
+                                {% if forloop.counter == 3 %}
+                                <div style="color:green;">% خصم 50</div>
+                                <div>  <h2 class="pr-4" style="text-decoration : line-through ; display : inline-block;font-size: 30px">{% trans 'LE' %} {{ package.price_ar }}</h2> <h2 style=" display : inline-block;">{% trans '1000 LE' %}</h2></div>
+                                <div>  <h2 class="pr-4" style="text-decoration : line-through ; display : inline-block;font-size: 30px">{% trans 'USD' %} {{ package.price_usd_ar }}</h2> <h2 style=" display : inline-block;font-size: 30px">{% trans '70 USD' %}</h2></div>
+
+                                {% else %}
+
+
+                                <h2>{% trans 'LE' %} {{ package.price_ar }}</h2>
+                                <h2 style="font-size: 30px">{% trans 'USD' %} {{ package.price_usd_ar }}</h2>
+                                {% endif %}
+
+                                {% else %}
+                                {% if forloop.counter == 3 %}
+                                <div style="color:green;">Discount 50 %</div>
+                                <div>  <h2 class="pr-4" style="text-decoration : line-through ; display : inline-block;font-size: 30px">{{ package.price }} LE</h2> <h2 style=" display : inline-block;">{% trans '1000 LE' %}</h2></div>
+
+                                <div>  <h2 class="pr-4" style="text-decoration : line-through ; display : inline-block;font-size: 30px">{{ package.price_usd }} USD</h2> <h2 style=" display : inline-block;font-size: 30px">{% trans '70 USD' %}</h2></div>
+                                {% else %}
+                                <h2>{{ package.price }} LE</h2>
+                                <h2 style="font-size: 30px">{{ package.price_usd }} USD</h2>
+                                {% endif %}
+
+                                {% endif %}
+                            </div>
+                            <ul>
+                                {% for details in package.package_details.all %}
+                                {% if  LANGUAGE_CODE == 'ar'%}
+                                <li>{{ details.description_ar }}</li>
+                                {% else %}
+                                <li>{{ details.description }}</li>
+                                {% endif %}
+                                {% endfor %}
+                            </ul>
+                            <a href="https://api.whatsapp.com/send?phone=201063361392" target="_blank"  class="primary-btn pricing-btn">{% trans 'Subscribe now' %}</a>
+                            <!-- <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a> -->
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        <!-- Pricing Section End -->
+        {% endif %}
+    {% endfor %}
+
+{% endblock %}

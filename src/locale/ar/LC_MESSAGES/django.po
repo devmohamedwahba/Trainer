@@ -1,0 +1,2121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-30 13:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: templates/about-us.html:14
+msgid "Make You Best"
+msgstr "ابذل قصاري جهدك"
+
+#: templates/base.html:46 templates/base.html:87
+msgid "Home"
+msgstr "الرئيسية"
+
+#: templates/base.html:47 templates/base.html:88
+msgid "About Us"
+msgstr "عن الموقع"
+
+#: templates/base.html:48 templates/base.html:89
+msgid "Transformations"
+msgstr "تحولات العملاء"
+
+#: templates/base.html:49 templates/base.html:90 templates/home.html:133
+#: templates/packages.html:15
+msgid "Packages"
+msgstr "خطط التدريب"
+
+#: templates/base.html:50 templates/base.html:91
+msgid "Contact-Us"
+msgstr "تواصل معنا"
+
+#: templates/base.html:196
+msgid "Copyright"
+msgstr "حقوق النشر"
+
+#: templates/base.html:196
+msgid "All rights reserved"
+msgstr "كل الحقوق محفوظة"
+
+#: templates/contact.html:16
+msgid "Contact Us Now"
+msgstr "تواصل معنا الآن"
+
+#: templates/contact.html:17
+msgid "Be YOUR BEST VERSION OF YOURSELF"
+msgstr "كن أفضل نسخة من نفسك"
+
+#: templates/contact.html:27
+msgid "Full Name"
+msgstr "الاسم بالكامل"
+
+#: templates/contact.html:28
+msgid "E-mail"
+msgstr "البريد الإليكتروني"
+
+#: templates/contact.html:29
+msgid "Mobile Number"
+msgstr "رقم الهاتف"
+
+#: templates/contact.html:30
+msgid "Subject"
+msgstr "الموضوع"
+
+#: templates/contact.html:31
+msgid "Message"
+msgstr "الرسالة"
+
+#: templates/contact.html:32
+msgid "Submit"
+msgstr "ارسال"
+
+#: templates/food.html:16 templates/food_images.html:16
+msgid "Shopping Cart"
+msgstr "عربة التسوق"
+
+#: templates/food.html:17 templates/food_images.html:17
+msgid ""
+"these are options of food that will facilitate your diet plan, fell free to "
+"choose your favorite ones"
+msgstr ""
+"هذة هي خيارات الطعام التي ستسهل خطة نظامك الغذائي فلا تتردد في اختيار "
+"ماتفضله ."
+
+#: templates/food.html:53
+msgid "Brown toast or bread"
+msgstr ""
+
+#: templates/food.html:59
+msgid "Whole wheat toast or bread"
+msgstr ""
+
+#: templates/food.html:65
+msgid "Whole grain toast or bread"
+msgstr ""
+
+#: templates/food.html:74
+#, python-format
+msgid "100%% whole wheat pasta"
+msgstr ""
+
+#: templates/food.html:80
+msgid "oat pasta"
+msgstr ""
+
+#: templates/food.html:86
+msgid "Sweet potatoes"
+msgstr ""
+
+#: templates/food.html:92
+msgid "white potatoes"
+msgstr ""
+
+#: templates/food.html:100
+msgid "brown rice"
+msgstr ""
+
+#: templates/food.html:106
+msgid "basmati rice"
+msgstr ""
+
+#: templates/food.html:112
+msgid "Quinoa"
+msgstr ""
+
+#: templates/food.html:118
+msgid "oats"
+msgstr ""
+
+#: templates/food.html:126
+msgid "Rice cakes zero sugar"
+msgstr ""
+
+#: templates/food.html:132
+msgid "honey"
+msgstr ""
+
+#: templates/food.html:140
+msgid "Protein options:"
+msgstr ""
+
+#: templates/food.html:146
+msgid "Low fat beef"
+msgstr ""
+
+#: templates/food.html:152
+msgid "Low fat ground beef"
+msgstr ""
+
+#: templates/food.html:158
+msgid "Beef liver"
+msgstr ""
+
+#: templates/food.html:164
+msgid "Beef kidney"
+msgstr ""
+
+#: templates/food.html:172
+msgid "Camel liver"
+msgstr ""
+
+#: templates/food.html:178
+msgid "Rabbit meat"
+msgstr ""
+
+#: templates/food.html:184
+msgid "Chicken breasts"
+msgstr ""
+
+#: templates/food.html:190
+msgid "Chicken liver"
+msgstr ""
+
+#: templates/food.html:198
+msgid "Turkey breast"
+msgstr ""
+
+#: templates/food.html:204
+msgid "Salmon fish"
+msgstr ""
+
+#: templates/food.html:210
+msgid "Tilapia fish"
+msgstr ""
+
+#: templates/food.html:216
+msgid "Cod fish"
+msgstr ""
+
+#: templates/food.html:224
+msgid "Filet tuna fish"
+msgstr ""
+
+#: templates/food.html:230
+msgid "Haddock fish"
+msgstr ""
+
+#: templates/food.html:236
+msgid "Canned Diet Tuna"
+msgstr ""
+
+#: templates/food.html:242
+msgid "Shrimp"
+msgstr ""
+
+#: templates/food.html:250
+msgid "Squid"
+msgstr ""
+
+#: templates/food.html:256
+msgid "Eggs"
+msgstr ""
+
+#: templates/food.html:264
+msgid "Dairy options:"
+msgstr ""
+
+#: templates/food.html:270
+msgid "Skimmed milk"
+msgstr ""
+
+#: templates/food.html:276
+msgid "unsweetened Almond milk"
+msgstr ""
+
+#: templates/food.html:282
+msgid "Unsweetened coconut milk"
+msgstr ""
+
+#: templates/food.html:288
+msgid "Greek yoghurt"
+msgstr ""
+
+#: templates/food.html:296
+msgid "Low fat yoghurt"
+msgstr ""
+
+#: templates/food.html:302
+msgid "Low fat Cottage cheese"
+msgstr ""
+
+#: templates/food.html:310
+msgid "vegetables options:"
+msgstr ""
+
+#: templates/food.html:316
+msgid "Watercress"
+msgstr ""
+
+#: templates/food.html:322
+msgid "Lettuce"
+msgstr ""
+
+#: templates/food.html:328
+msgid "Alfalfa Sprouts"
+msgstr ""
+
+#: templates/food.html:334
+msgid "Cabbage"
+msgstr ""
+
+#: templates/food.html:342
+msgid "parsley"
+msgstr ""
+
+#: templates/food.html:348
+msgid "dill"
+msgstr ""
+
+#: templates/food.html:354
+msgid "coriander"
+msgstr ""
+
+#: templates/food.html:360
+msgid "Cucumber"
+msgstr ""
+
+#: templates/food.html:368
+msgid "Cauliflower"
+msgstr ""
+
+#: templates/food.html:374
+msgid "Celery"
+msgstr ""
+
+#: templates/food.html:380
+msgid "Radishes"
+msgstr ""
+
+#: templates/food.html:386
+msgid "Mushrooms"
+msgstr ""
+
+#: templates/food.html:394
+msgid "Eggplant"
+msgstr ""
+
+#: templates/food.html:400
+msgid "Asparagus"
+msgstr ""
+
+#: templates/food.html:406
+msgid "Spinach"
+msgstr ""
+
+#: templates/food.html:412
+msgid "Tomato"
+msgstr ""
+
+#: templates/food.html:420
+msgid "Onions"
+msgstr ""
+
+#: templates/food.html:426
+msgid "Broccoli"
+msgstr ""
+
+#: templates/food.html:432
+msgid "Zucchini"
+msgstr ""
+
+#: templates/food.html:438
+msgid "Chickpea"
+msgstr ""
+
+#: templates/food.html:446
+msgid "Green pepper"
+msgstr ""
+
+#: templates/food.html:452
+msgid "Red pepper"
+msgstr ""
+
+#: templates/food.html:458
+msgid "Yellow pepper"
+msgstr ""
+
+#: templates/food.html:464
+msgid "Kale"
+msgstr ""
+
+#: templates/food.html:472
+msgid "Brown lentils"
+msgstr ""
+
+#: templates/food.html:478
+msgid "Green beans"
+msgstr ""
+
+#: templates/food.html:484
+msgid "Kidney beans"
+msgstr ""
+
+#: templates/food.html:490
+msgid "Black eyed beans"
+msgstr ""
+
+#: templates/food.html:498
+msgid "Sweet corn"
+msgstr ""
+
+#: templates/food.html:504
+msgid "Fava beans"
+msgstr ""
+
+#: templates/food.html:510
+msgid "Artichoke"
+msgstr ""
+
+#: templates/food.html:517
+msgid "Fruits options:"
+msgstr ""
+
+#: templates/food.html:523
+msgid "Watermelons"
+msgstr ""
+
+#: templates/food.html:529
+msgid "Cantaloupes"
+msgstr ""
+
+#: templates/food.html:535
+msgid "Strawberries"
+msgstr ""
+
+#: templates/food.html:541
+msgid "raspberries"
+msgstr ""
+
+#: templates/food.html:549
+msgid "blackberries"
+msgstr ""
+
+#: templates/food.html:555
+msgid "blueberries"
+msgstr ""
+
+#: templates/food.html:561
+msgid "peaches"
+msgstr ""
+
+#: templates/food.html:567
+msgid "pineapple"
+msgstr ""
+
+#: templates/food.html:575
+msgid "Plum"
+msgstr ""
+
+#: templates/food.html:581
+msgid "kiwi"
+msgstr ""
+
+#: templates/food.html:587
+msgid "cherries"
+msgstr ""
+
+#: templates/food.html:593
+msgid "Lemon"
+msgstr ""
+
+#: templates/food.html:601
+msgid "banana"
+msgstr ""
+
+#: templates/food.html:608
+msgid ""
+"A clear photos of the body from different positions:  front,  side,and back "
+"in a suitable lighting and from an appropriate distance"
+msgstr "صور واضحة للجسم من الامام والجانب والخلف"
+
+#: templates/food.html:630 templates/food_images.html:25
+msgid "A clear photo of the body composition analysis (inbody)"
+msgstr "(inbody) صورة واضحة لتحليل تكوين الجسم"
+
+#: templates/food.html:642 templates/food_images.html:37
+msgid "A clear screenshot of the payment receipt or the money transfer message"
+msgstr "صورة واضحة لإيصال الدفع أو رسالة تحويل الأموال"
+
+#: templates/food.html:655 templates/food_images.html:50
+#: templates/questionnaire.html:416
+msgid "Enter Full Name"
+msgstr "الاسم بالكامل"
+
+#: templates/food.html:661 templates/food_images.html:56
+msgid "Send"
+msgstr "ارسال"
+
+#: templates/home.html:24 templates/packages.html:89
+msgid "Subscribe now"
+msgstr "إشترك الآن"
+
+#: templates/home.html:42
+msgid "Why choose online coaching with Hawary?"
+msgstr "لماذا تختار التدريب عبر الإنترنت مع هواري؟"
+
+#: templates/home.html:51
+msgid "Affordability"
+msgstr "التكلفه المادية المناسبة"
+
+#: templates/home.html:52
+msgid ""
+"Online coaching with Hawary is considered a great option to get all the "
+"support you need if you aren’t quite in a position to hire a personal "
+"trainer. For instance, You will most likely get 16 weeks of online coaching "
+"with Hawary for the price of only 12 sessions/4 weeks with a personal "
+"trainer."
+msgstr ""
+"التدريب عبر الانترنت مع هواري يعتبر  خيار رائع للحصول على كل الدعم الذي "
+"تحتاجه إذا لم تكن في وضع يسمح لك بتوظيف مدرب شخصي. فعلي سبيل المثال، ستحصل "
+"علي ١٦ اسبوع من التدريب عبر الانترنت مع هواري بسعر اقل من ١٢ حصه/٤ اسابيع مع "
+"مدرب شخصي"
+
+#: templates/home.html:58
+msgid "Service"
+msgstr "خدمه التدريب عبر الانترنت"
+
+#: templates/home.html:59
+#, python-format
+msgid ""
+"Coach Hawary has put a lot of time and effort to give his clients the best "
+"online coaching service and care. All programs are customized for you and "
+"your goal. Workout plans made to suit your level and goal. All exercises are "
+"demonstrated in videos to make sure you are doing allot them with the right "
+"performance. Sets, reps, tempo, and resting time are clarified in all "
+"exercises besides coach’s notes on each workout. Nutrition plans are so "
+"flexible and easy to follow, that’s because you have various food options to "
+"choose from, in other words, you will make your menu. Your nutrition plan is "
+"100%% customized for you to suit your goal, lifestyle, and food preference. "
+"It includes your daily calorie intake, macronutrients, supplement guideline, "
+"and more of the essential elements to help you reach your goal."
+msgstr ""
+"لقد بذل كابتن هواري الكثير من الوقت والجهد لمنح عملائه أفضل خدمة تدريب "
+"ورعاية عبر الإنترنت فجميع البرامج مخصصة لك ولهدفك. تم وضع خطط التمارين "
+"لتناسب مستواك وهدفك. يتم عرض جميع التمارين في مقاطع ڤيديو للتأكد من أنك تقوم "
+"بها بالأداء الصحيح. يتم توضيح المجموعات والتكرارات والإيقاع و وقت الراحة في "
+"جميع التمارين. بجانب ملاحظات المدرب علي كل تمرين. تتميز خطط التغذية بالمرونة "
+"وسهولة الإتباع، وذلك لأن لديك خيارات طعام متنوعة للإختيار من بينها ، او "
+"بعبارة أخرى ، ستصنع قائمتك الخاصة من الطعام. خطه التغذية مخصصة لك بالكامل "
+"بنسبه ١٠٠٪؜ لتناسب هدفك ونمط حياتك وتفضيلاتك الغذائية. و تتضمن السعرات "
+"الحرارية اليومية، و وحدات الماكرو، والإرشادات الخاصة بالمكملات الغذائية، "
+"والمزيد من العناصر الأساسية لمساعدتك في الوصول إلى هدفك."
+
+#: templates/home.html:62
+#, fuzzy, python-format
+#| msgid ""
+#| "Coach Hawary has put a lot of time and effort to give his clients the "
+#| "best online coaching service and care. All programs are customized for "
+#| "you and your goal. Workout plans made to suit your level and goal All "
+#| "exercises are demonstrated in videos to make sure you are doing allot "
+#| "them  with  the right performance Sets, reps, tempo, and resting time are "
+#| "clarified in all exercises besides the coach’s notes on each workout "
+#| "Nutrition plans are so flexible and easy to follow, that’s because you "
+#| "have various food options to choose from, in other words, you will make "
+#| "your menu Your nutrition plan is 100%% customized for you to suit your "
+#| "goal, lifestyle, and food preference. It includes your daily calorie "
+#| "intake, macronutrients, supplement guideline, and more of the essential "
+#| "elements to help you reach your goal."
+msgid ""
+"besides the coach’s notes on each workout Nutrition plans are so flexible "
+"and easy to follow, that’s because you have various food options to choose "
+"from, in other words, you will make your menu Your nutrition plan is 100%% "
+"customized for you to suit your goal, lifestyle, and food preference. It "
+"includes your daily calorie intake, macronutrients, supplement guideline, "
+"and more of the essential elements to help you reach your goal."
+msgstr ""
+"لقد بذل كابتن هواري الكثير من الوقت والجهد لمنح عملائه أفضل خدمة تدريب "
+"ورعاية عبر الإنترنت فجميع البرامج مخصصة لك ولهدفك. تم وضع خطط التمارين "
+"لتناسب مستواك وهدفك. يتم عرض جميع التمارين في مقاطع ڤيديو للتأكد من أنك تقوم "
+"بها بالأداء الصحيح. يتم توضيح المجموعات والتكرارات والإيقاع و وقت الراحة في "
+"جميع التمارين. بجانب ملاحظات المدرب علي كل تمرين. تتميز خطط التغذية بالمرونة "
+"وسهولة الإتباع، وذلك لأن لديك خيارات طعام متنوعة للإختيار من بينها ، او "
+"بعبارة أخرى ، ستصنع قائمتك الخاصة من الطعام. خطه التغذية مخصصة لك بالكامل "
+"بنسبه ١٠٠٪؜ لتناسب هدفك ونمط حياتك وتفضيلاتك الغذائية. و تتضمن السعرات "
+"الحرارية اليومية، و وحدات الماكرو، والإرشادات الخاصة بالمكملات الغذائية، "
+"والمزيد من العناصر الأساسية لمساعدتك في الوصول إلى هدفك"
+
+#: templates/home.html:68
+msgid "Follow-up"
+msgstr "المتابعة"
+
+#: templates/home.html:69
+msgid ""
+"Reaching your goal consists of many important factors, but follow-up is our "
+"priority, Coach Hawary’s clients' service is available to help you answer "
+"your daily questions.In addition to checking your status, changing or "
+"adjusting any of your programs, or fulfilling your requirements in a regular "
+"basis."
+msgstr ""
+"الوصول إلى هدفك يتكون من العديد من العوامل المهمة ولكن المتابعة هي أولويتنا، "
+"خدمة عملاء كابتن هواري متاحة لمساعدتك في الإجابة على أسئلتك اليومية، "
+"بالإضافة إلى التحقق من حالتك، تغيير أو تعديل أي من برامجك، أو تلبية متطلباتك "
+"بشكل منتظم"
+
+#: templates/home.html:75
+msgid "Results"
+msgstr "النتائج"
+
+#: templates/home.html:76
+msgid ""
+"Coach Hawary's favorite saying is 'Trust the process'. Since 2015 he has "
+"worked with over 6000+ clients as their personal trainer or an online coach. "
+"Results are guaranteed with coach Hawary as he works with each client’s case "
+"as if it’s the only one he has and the results are always Phenomenal, not "
+"only great body transformations but also changing whole lifestyles."
+msgstr ""
+"المقولة المفضلة لهواري هي 'ثق بسير العملية'. منذ عام 2015 عمل كابتن هواري مع "
+"أكثر من 6000 عميل حول العالم كمدرب شخصي أو مدرب عبر الإنترنت. النتائج مضمونة "
+"مع كابتن هواري لأنه يتعامل مع حالة كل عميل كما لو كانت الحالة الوحيدة لديه "
+"والنتائج دائمًا ما تكون هائلة، ليس فقط تحولات كبيرة في الجسم ولكن أيضًا تغيير "
+"في أنماط الحياة بأكملها"
+
+#: templates/home.html:90
+msgid "Exercise until the body obeys."
+msgstr "تمرن حتى يطيع الجسم."
+
+#: templates/home.html:91
+msgid "Where health, beauty and fitness meet."
+msgstr "حيث تلتقي الصحة والجمال واللياقة البدنية."
+
+#: templates/home.html:103
+msgid "Who's Coach Hawary?"
+msgstr "من هو كابتن هوارى ؟"
+
+#: templates/home.html:134 templates/packages.html:38
+msgid "Choose your plan"
+msgstr "اختر خطتك الآن"
+
+#: templates/home.html:152
+msgid "Subscribe Now"
+msgstr "إشترك الآن"
+
+#: templates/includes/clients-opinion.html:10
+msgid "Clients Transformation"
+msgstr "تحولات العملاء"
+
+#: templates/packages.html:56
+#, python-format
+msgid "Discount 50 %"
+msgstr "% خصم 50"
+
+#: templates/packages.html:57 templates/packages.html:63
+msgid "LE"
+msgstr "ج.م"
+
+#: templates/packages.html:57 templates/packages.html:70
+msgid "1000 LE"
+msgstr "1000 ج. م"
+
+#: templates/packages.html:58 templates/packages.html:64
+msgid "USD"
+msgstr "دولار"
+
+#: templates/packages.html:58 templates/packages.html:72
+msgid "70 USD"
+msgstr "70 دولار"
+
+#: templates/questionnaire.html:14
+msgid "Please answer the following questions:"
+msgstr "يرجي الإجابه علي الاسئله التاليه"
+
+#: templates/questionnaire.html:20
+msgid "Do you have any chronic diseases ?"
+msgstr "هل يوجد اي امراض مزمنه ؟"
+
+#: templates/questionnaire.html:27 templates/questionnaire.html:57
+#: templates/questionnaire.html:90 templates/questionnaire.html:124
+#: templates/questionnaire.html:155 templates/questionnaire.html:184
+#: templates/questionnaire.html:214
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:715
+msgid "Yes"
+msgstr "نعم"
+
+#: templates/questionnaire.html:35 templates/questionnaire.html:65
+#: templates/questionnaire.html:98 templates/questionnaire.html:132
+#: templates/questionnaire.html:163 templates/questionnaire.html:192
+#: templates/questionnaire.html:222
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:716
+msgid "No"
+msgstr "لا"
+
+#: templates/questionnaire.html:42 templates/questionnaire.html:73
+#: templates/questionnaire.html:106 templates/questionnaire.html:141
+#: templates/questionnaire.html:171 templates/questionnaire.html:200
+#: templates/questionnaire.html:325 templates/questionnaire.html:370
+#: templates/questionnaire.html:383 templates/questionnaire.html:396
+#: templates/questionnaire.html:408
+msgid "Please specify"
+msgstr "يرجي الافصاح بالتفصيل"
+
+#: templates/questionnaire.html:49
+msgid ""
+"Does the chronic disease prevent you from performing some daily tasks or "
+"exercises ?"
+msgstr "هل المرض المزمن يعيقك عن اداء بعض المهام اليوميه أو التدريبات ؟"
+
+#: templates/questionnaire.html:82
+msgid "Do you have any chronic injuries ?"
+msgstr "هل يوجد اي إصابات مزمنه ؟"
+
+#: templates/questionnaire.html:116
+msgid ""
+"Does the injury still prevent you from performing some daily tasks or "
+"exercises ?"
+msgstr "هل مازالت الاصابة تعيقك عن اداء بعض المهام اليوميه أو التدريبات ؟"
+
+#: templates/questionnaire.html:147
+msgid "Do you have an allergy to a particular type of food ?"
+msgstr "هل يوجد حساسيه من اي نوع من الطعام ؟"
+
+#: templates/questionnaire.html:177
+msgid "Do you use supplements ?"
+msgstr "هل تستخدم مكملات غذائيه ؟"
+
+#: templates/questionnaire.html:207
+msgid "Are you willing to use supplements to reach your goal faster ?"
+msgstr "هل تريد استخدام المكملات الغذائيه لوصول اسرع لهدفك ؟"
+
+#: templates/questionnaire.html:231
+msgid "What is your daily activity level ?"
+msgstr "ما هو مستوي نشاطك اليومي ؟"
+
+#: templates/questionnaire.html:239
+msgid "Weak: Office work or very little movement with no sports activity"
+msgstr "ضعيف: اعمال مكتبيه او حركه قليله جدا بدون نشاط رياضي"
+
+#: templates/questionnaire.html:247
+msgid ""
+"Moderate: Standing or walking most of the time with/or a light sports "
+"activity once to three times a week"
+msgstr ""
+"متوسط: عمل يتطلب حركه خفيفه او وقوف، مع/او ممارسه نشاط رياضي خفيف مره لثلاث "
+"مرات اسبوعيا"
+
+#: templates/questionnaire.html:255
+msgid ""
+"High: High physical activity most of the day with/or heavy sports activity "
+"five to seven times a week"
+msgstr ""
+"عالي: عمل يتطلب نشاط بدني عالي، مع/او ممارسه نشاط رياضي شديد خمس ل سبع ايام "
+"اسبوعيا"
+
+#: templates/questionnaire.html:263
+msgid "How often do you go to the gym (per week) ?"
+msgstr "كم عدد ايام التدريب ؟"
+
+#: templates/questionnaire.html:271
+msgid "3 Days"
+msgstr "٣ ايام"
+
+#: templates/questionnaire.html:279
+msgid "4 Days"
+msgstr "٤ ايام"
+
+#: templates/questionnaire.html:287
+msgid "5 Days"
+msgstr "٥ ايام"
+
+#: templates/questionnaire.html:295
+msgid "Where will you train ?"
+msgstr "اين سيكون مكان التمرين ؟"
+
+#: templates/questionnaire.html:303
+msgid "Gym"
+msgstr "الچيم"
+
+#: templates/questionnaire.html:311
+msgid "home"
+msgstr "المنزل"
+
+#: templates/questionnaire.html:319
+msgid "What equipment do you have to train with at home ?"
+msgstr "ما هي الادوات المتاحه للتدريب "
+
+#: templates/questionnaire.html:332
+msgid "When will you train ?"
+msgstr "متي سيكون معاد التدريب؟"
+
+#: templates/questionnaire.html:340
+msgid "Early morning"
+msgstr "في الصباح الباكر"
+
+#: templates/questionnaire.html:348
+msgid "Mid-day"
+msgstr "في منتصف اليوم"
+
+#: templates/questionnaire.html:356
+msgid "Late night"
+msgstr "في نهايه اليوم "
+
+#: templates/questionnaire.html:365
+msgid "What is your current nutrition plan ?"
+msgstr "ما هي خطة التغذية الحالية الخاصة بك ؟"
+
+#: templates/questionnaire.html:378
+msgid "What is your undesirable food ?"
+msgstr "ما هي الاطعمةالغير مفضلة لديك ؟"
+
+#: templates/questionnaire.html:391
+msgid "What is your current workout plan ?"
+msgstr "ما هي خطة التدريب الحالية الخاصة بك ؟"
+
+#: templates/questionnaire.html:403
+msgid "What is your main goal of online training ?"
+msgstr "ما هو هدفك الأساسي من المتابعه اونلاين ؟"
+
+#: templates/questionnaire.html:431 templates/questionnaire.html:438
+msgid "Terms And Conditions"
+msgstr "الشروط والاحكام"
+
+#: templates/questionnaire.html:439
+msgid ""
+"DEAR CLIENT, PLEASE TAKE A MOMENT TO GO THROUGH TERMS AND CONDITIONS BEFORE "
+"SIGNING UP:"
+msgstr ""
+"عميلي العزيز يرجي قرائه الشروط بعنايه قبل التسجيل، و يجب العلم انها لتنظيم "
+"عمليه المتابعه و توفير الكثير من الوقت للوصول لهدفك في وقت قياسي و بمنتهي "
+"الاحترافيه"
+
+#: templates/questionnaire.html:442
+msgid "The full amount must be paid before the start of the subscription"
+msgstr "يجب دفع المبلغ كامل قبل بدأ الاشتراك"
+
+#: templates/questionnaire.html:443
+msgid "No refund after passing 24 hour period of payment"
+msgstr ""
+"لا يمكن استرداد مبلغ الاشتراك بأي حال من الاحوال بعد مرور ٢٤ ساعه من الدفع"
+
+#: templates/questionnaire.html:444
+msgid ""
+"Subscription starts after sending first month programs or after five days of "
+"paying the subscription amount"
+msgstr ""
+"يتم بدأ مده الاشتراكات بعد ارسال برامج الشهر الأول او بعد ٥ ايام من دفع مبلغ "
+"الإشتراك"
+
+#: templates/questionnaire.html:445
+msgid "Subscription ends with the end of the chosen package"
+msgstr "ينتهي الاشتراك بإنتهاء مده الباقه المختاره"
+
+#: templates/questionnaire.html:446
+msgid "Subscription can’t be postponed more than two weeks"
+msgstr "اقصي مده لإيقاف الاشتراك خلال مده المتابعه هي اسبوعين"
+
+#: templates/questionnaire.html:447
+msgid ""
+"Client’s transformation photos (before & after) can be used by coach Hawary "
+"website and social media platforms with the possibility of hiding the "
+"client’s identity"
+msgstr ""
+"يسمح بإستخدام صور تحول العميل (قبل و بعد) كمحتوى علي الموقع الإلكتروني و "
+"وسائل التواصل الاجتماعي الخاصة بكابتن هواري مع امكانيه اخفاء الوجه"
+
+#: templates/questionnaire.html:448
+msgid ""
+"Programs are sent within five days of fulfilling all the required information"
+msgstr "يتم ارسال البرامج خلال ٥ ايام من ارسال البيانات المطلوبة "
+
+#: templates/questionnaire.html:449
+msgid ""
+"Only one workout program is sent during a 4 week period with the possibility "
+"of adjusting by coach Hawary"
+msgstr ""
+"لا يمكن ارسال اكثر من برنامج تدريبي واحد خلال الشهر مع امكانيه التعديل من "
+"قبل كابتن هواري"
+
+#: templates/questionnaire.html:450
+msgid "Messages are being responded weekly by email"
+msgstr "يتم الرد اسبوعيا علي الرسائل من خلال البريد الالكتروني  فقط"
+
+#: templates/questionnaire.html:451
+msgid "phone calls and voice messages are not allowed"
+msgstr "يرجي عدم الاتصال هاتفيًا او ارسال اي رسائل صوتيه"
+
+#: templates/questionnaire.html:452
+msgid "All messages must be written in Arabic or English languages only"
+msgstr "الرسائل تكون مكتوبه باللغه العربية او الانجليزية فقط"
+
+#: templates/questionnaire.html:453
+msgid ""
+"WhatsApp number is coach Hawary’s customers service number, it will help you "
+"deliver your notes"
+msgstr ""
+"رقم تطبيق واتس آب هو رقم خدمه عملاء كابتن هواري لتلقي الملاحظات و المقترحات، "
+"و غير مختص بالإجابة علي اي اسئله فنيه"
+
+#: templates/questionnaire.html:454
+msgid "Customer service are not to answer technical matters"
+msgstr "خدمة العملاء ليست للرد على المسائل التقنية"
+
+#: templates/questionnaire.html:457
+msgid "Agree Terms And Condition"
+msgstr "اوافق علي شروط الاشتراك"
+
+#: templates/questionnaire.html:463
+msgid "send"
+msgstr "ارسال"
+
+#: templates/transformation.html:23
+msgid ""
+"Those who have committed to the online coaching process and believed in "
+"themselves had achieved their best transformations. It’s a matter of "
+"commitment and discipline towards your goal."
+msgstr ""
+"أولئك الذين التزموا بعملية التدريب عبر الإنترنت وآمنوا بأنفسهم حققوا أفضل "
+"التحولات. إنها مسألة التزام وانضباط تجاه هدفك"
+
+#: venv/lib/python3.8/site-packages/cloudinary/forms.py:55
+#: venv/lib/python3.8/site-packages/cloudinary/forms.py:124
+msgid "No file selected!"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/contrib/messages/apps.py:7
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:51
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:53
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:58
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:93
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:675
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:150
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:161
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.8/site-packages/django/core/validators.py:262
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:269
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:278
+#: venv/lib/python3.8/site-packages/django/core/validators.py:288
+#: venv/lib/python3.8/site-packages/django/core/validators.py:311
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:296
+#: venv/lib/python3.8/site-packages/django/core/validators.py:312
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:306
+#: venv/lib/python3.8/site-packages/django/core/validators.py:310
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:340
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:346
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:379
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:388
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:398
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:413
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:432
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:292
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:327
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:439
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:444
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:506
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:559
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/base.py:1197
+#: venv/lib/python3.8/site-packages/django/forms/models.py:768
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/base.py:1199
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:100
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:101
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:102
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:103
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:107
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:126
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:958
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:959
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:961
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1002
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1096
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1145
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1147
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1290
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1150
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1288
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1292
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1296
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1444
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1446
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1585
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1588
+msgid "Duration"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1638
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1661
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1727
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1729
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1767
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1769
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1852
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1867
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1875
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1906
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1986
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1987
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1989
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2043
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2056
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2069
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2083
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2115
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2181
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2183
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2186
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2312
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2334
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2399
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2401
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/files.py:226
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/files.py:375
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/json.py:18
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/json.py:20
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:790
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:792
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1045
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1099
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1100
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1142
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.8/site-packages/django/forms/boundfield.py:150
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:54
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:247
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:402
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1143
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:426
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1144
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:454
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:488
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:489
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:549
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:550
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:551
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:553
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:556
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:617
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:779
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:869
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1309
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:870
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:985
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1308
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:986
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1202
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1232
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.8/site-packages/django/forms/forms.py:76
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/forms.py:203
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:370
+#, python-format
+msgid "Please submit at most %d form."
+msgid_plural "Please submit at most %d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:377
+#, python-format
+msgid "Please submit at least %d form."
+msgid_plural "Please submit at least %d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:405
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:412
+msgid "Order"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:417
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:763
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:767
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:773
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:782
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1109
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1193
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1311
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/utils.py:172
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:403
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:404
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:405
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:714
+msgid "Unknown"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:805
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:834
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:851
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:853
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:855
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:857
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:859
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:861
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:66
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:67
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:72
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:73
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:146
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:148
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:16
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:23
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:24
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:25
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:26
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:27
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:28
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:29
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:30
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:31
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:32
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:33
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:34
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:37
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:38
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:39
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:40
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:41
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:42
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:43
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:44
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:45
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:46
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:47
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:48
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/text.py:71
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/text.py:240
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.8/site-packages/django/utils/text.py:259
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:94
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:14
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:110
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:120
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:61
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:111
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:338
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:594
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:628
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/detail.py:54
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/list.py:67
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/list.py:154
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/static.py:40
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/static.py:42
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/static.py:80
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/test/integ/test_sendgrid.py:333
+#: venv/lib/python3.8/site-packages/test/integ/test_sendgrid.py:340
+#: venv/lib/python3.8/site-packages/test/integ/test_sendgrid.py:347
+msgid "global"
+msgstr ""
+
+#~ msgid ""
+#~ "Dear client, please take a moment to go through terms and conditions "
+#~ "before signing up."
+#~ msgstr ""
+#~ "عميلي العزيز يرجي قرائه الشروط بعنايه قبل التسجيل، و يجب العلم انها "
+#~ "لتنظيم عمليه المتابعه و توفير الكثير من الوقت للوصول لهدفك في وقت قياسي و "
+#~ "بمنتهي الاحترافيه"
+
+#~ msgid "Be Your Best self"
+#~ msgstr "كن أفضل نسخة من نفسك"
+
+#~ msgid ""
+#~ "Coach Hawary has put a lot of time and effort to give his clients the "
+#~ "best online coaching service and care. All programs are customized for "
+#~ "you and your goal. Workout plans made to suit your level and goal All "
+#~ "exercises are demonstrated in videos to make sure you are doing allot "
+#~ "them  with  the right performance Sets, reps, tempo, and resting time are "
+#~ "clarified in all exercises"
+#~ msgstr ""
+#~ "لقد بذل المدرب هواري الكثير من الوقت والجهد لمنح عملائه أفضل خدمة تدريب "
+#~ "ورعاية عبر الإنترنت. جميع البرامج مخصصة لك ولهدفك. خطط التمرين المصممة "
+#~ "لتناسب مستواك وهدفك ، يتم عرض جميع التمارين في مقاطع الفيديو للتأكد من "
+#~ "أنك تقوم بتخصيصها مع مجموعات الأداء الصحيحة ، وممثلين ، وإيقاع ، ووقت "
+#~ "راحة موضحة في جميع التمارين"
+
+#~ msgid "Agree Condition And Terms"
+#~ msgstr "اوافق على شروط الاشتراك"
+
+#~ msgid "Enroll now"
+#~ msgstr "سجل الان"
+
+#~ msgid "Choose your pricing plan"
+#~ msgstr "اختر خطه اسعارك"
+
+#~ msgid "CLIENTS Transformation"
+#~ msgstr "التحولات الكبيره"
+
+#~ msgid ""
+#~ "Reaching your goal consists of many important factors but follow-up is "
+#~ "our priority, Coach Hawary’s clients"
+#~ msgstr ""
+#~ "الوصول إلى هدفك يتكون من العديد من العوامل المهمة ولكن المتابعة هي "
+#~ "أولويتنا ، خدمة عملاء الكابتن هواري  متاحة لمساعدتك في الإجابة على أسئلتك "
+#~ "اليومية ، بالإضافة إلى التحقق من حالتك ، أو تغيير أو تعديل أي من برامجك ، "
+#~ "أو تلبية متطلباتك بشكل منتظم"
