@@ -21,10 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-rq^m&ml(4zbivg(p*2n3hi=)&hro96#i(#7_xei!a7vihu_@s8'
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv('DEBUG')
 
 ALLOWED_HOSTS = ['*']
 
@@ -74,11 +74,22 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgress',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),  # This is where you put the name of the db file.
+#         # If one doesn't exist, it will be created at migration time.
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),  # This is where you put the name of the db file.
-        # If one doesn't exist, it will be created at migration time.
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('DATA_BASE_NAME', 'howary'),
+        'USER': os.getenv('DATABASE_USER','postgres'),
+        'PASSWORD': os.getenv('DATABASE_PASS', 'Ww207930000'),
+        "HOST": os.getenv('DATABASE_HOST', 'database-2.c59vxgbhuivc.us-east-1.rds.amazonaws.com'),
+        "PORT": 5432
     }
 }
 
@@ -114,11 +125,11 @@ USE_L10N = True
 
 USE_TZ = True
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = '/media/'  # os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = '/static/'  # os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
