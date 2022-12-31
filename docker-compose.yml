@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  django_app:
+    build: ./src
+    env_file:
+      - .env
+    volumes:
+      - static:/static
+      - media:/media
+    ports:
+      - "8000:8000"
+
+  nginx:
+    build: ./nginx
+    volumes:
+      - static:/static
+      - media:/media
+    ports:
+      -  "80:80"
+    depends_on:
+      - django_app
+volumes:
+  static:
+  media:
